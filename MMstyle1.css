@@ -1,0 +1,317 @@
+/*CSS Main Styles */
+
+html {
+	background-color: #DFE0E2;
+	font-family: Calibri;
+	max-width: 1200px;
+	margin: auto;
+}
+
+h1,h2,h3,h4,footer, main {
+	vertical-align: middle;
+	text-align: center;
+	justify-content: center;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+/*CSS Main Heading*/
+
+h1 {
+	font-size: 90px;
+	color: #DFE0E2;
+	background-color: #071013;
+	padding-top: 10px;
+	margin-bottom: -50px;
+	height: 120px;
+	position: relative;
+	
+}
+h1 span {
+	color: #EB5160;
+	font-size: 130px;
+}
+
+/*CSS Login*/
+
+.login {
+	position: absolute; 
+  top: 35px;
+  display: block;
+  background-color: #AAAAAA;
+  padding: 5px;
+  align-content: center;
+}
+
+.login form {
+	text-align: right;
+	float: left;
+	min-width: 1065px;
+	margin: auto;
+	
+}
+
+.login p {
+	margin: 0px;
+	float: left;
+	
+}
+.login input{
+	width: 300px;
+	border-color: #071013;
+  border-radius: 4px;
+  border-radius: 8px;
+}
+
+.login button img {
+	width:20px;
+	position: absolute;
+	right: 7px;
+	top: 7px;
+}
+
+.login button {
+	width:20px;
+	height: 20px;
+	float: right;
+	padding: 10px;
+}
+
+/*CSS Navgation*/
+
+nav h2 {
+  visibility:hidden;
+  height: 50px;
+}
+
+nav {
+	text-align: center;
+	background-color: #071013;
+	color: #DFE0E2;
+	font-size: 25px;
+	padding-right: 30px;
+	height: 250px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 12px;
+}
+
+nav li a:hover {
+	color: #EB5160;
+}
+
+a {
+	text-decoration: none;
+	color: #dfe0e2;
+}
+
+/*CSS Search bar*/
+
+.search {
+	position: relative;
+	top: -110px; 
+	text-align: center;
+}
+
+
+.search input {
+	width: 600px;
+  border-radius: 4px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.search img {
+	position: absolute;
+	margin-top: -18px;
+	margin-left: -295px;
+	width:14px
+}
+
+/*Main Section*/
+
+Main {
+	background-color: #AAAAAA;
+	position: relative;
+	top: -80px;
+	padding-top: 5px;
+}
+
+#Jazz {
+	background-color: #EB5160;
+	padding: 10px;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 20px;
+	clear: both;
+}
+
+.BlackBackground {
+	background-color:#071013;
+	color: #dfe0e2;
+	padding-top: 40px;
+	padding-bottom: 80px;
+	margin-bottom: -25px;
+}
+
+.smalltext {
+	color: #dfe0e2;
+	font-size: 20px;
+	background-color: #071013;
+	padding: 20px;
+	margin-top: -4px;
+}
+
+img {
+	position: absolute;
+	text-align: center;
+	width: 250px;
+	object-fit: cover;
+  object-position: 40% 50%;
+}
+
+.PlayHidden {
+	visibility: hidden;
+}
+
+.Play,.PlayHidden {
+	position: relative;
+	opacity: .5;
+	align-content: center;
+	
+}
+
+
+
+#Songs {
+	background-color:#071013;
+	justify-content: center;
+	color: #dfe0e2;
+	display:grid;
+	align-content: center;
+	grid-template-columns: 500px 500px;
+	grid-row-gap:20px;
+	grid-column-gap:10px;
+}
+
+
+#Moresongs, #playlist {
+	background-color:#071013;
+	color: #dfe0e2;
+	display: grid;
+	align-content: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row-gap:10px;
+}
+
+/*Footer Section*/
+
+footer {
+	text-align: center;
+	background-color: #AAAAAA;
+	color: #071013;
+	font-size: 15px;
+	padding-bottom: 20px;
+}
+
+/* CSS Media Screen */
+
+@media screen and (max-width: 550px) {
+  /* Small Screen: */
+  .login{
+  	width: 508px;
+  }
+  .login form{
+  	width: 508px;
+  	text-align: left;
+  }
+  .login input{
+  	width: 220px;
+  }
+  .login button{
+  	float: left;
+  }
+  .login button img {
+  	top: 26px;
+  	left: 7px;
+  }
+  h1 {
+  	font-size: 70px;
+  	top: 30px;
+  }
+  h1 span{
+  	font-size: 110px;
+  }
+  .search input{
+  	width: 400px;
+  }
+  .search img{
+  	margin-left: -200px;
+  }
+  #Jazz{
+  	width: 300px;
+  	margin-left: 100px;
+  }
+  #Songs{
+  	grid-template-columns: 1fr;
+  }
+
+  #Moresongs, #playlist{
+  	grid-template-columns: 1fr 1fr;
+  }
+
+}
+@media screen and (max-width: 848px) {
+  /* Big Screen: */
+  .login{
+  	max-width: 805px;
+  }
+  .login form{
+  	min-width: 805px;
+  }
+  .login button img {
+  	top: 26px;
+  }
+    nav ul{
+  	display:grid;
+  	grid-template-columns: 1fr 1fr;
+  }
+  nav {
+  	margin-bottom: 55px;
+  }
+}
+@media screen and (min-width: 1073px) {
+  /* Big Screen: */
+  .login{
+  	max-width: 1030px;
+  }
+  .login form{
+  	min-width: 1030px;
+  }
+  .login button img {
+  	top: 26px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* Bigger Screen: */
+	main{
+    max-width: 1200px;
+  }
+  .login{
+  	max-width: 1175px;
+  }
+  .login form{
+  	min-width: 1175px;
+  }
+  .login button img{
+  	top: 26px;
+  }
+}

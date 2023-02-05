@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="MMstyle1.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>MuzakMaker</title>
+	</head>
+	<body>
+		<header>
+			<h1><span>M</span>uzakMaker</h1>
+		</header>
+		<nav>
+			<h2>Navgation</h2>
+			<ul>
+				<li><a href="#Jazz">Smooth Jazz</a></li>
+				<li><a href="#Songs">Trending Songs</a></li>
+				<li><a href="#Moresongs">Continue Listening</a></li>
+				<li><a href="#playlist">Curated Playlists</a></li>
+			</ul>
+		</nav>
+		<div class="search">
+			<form action="/action_page.php">
+	      		<input type="text" placeholder="Search" name="search">
+	      	</form>
+	      	<img src="search.png" alt="Search" style="height:14px">	
+      	</div>
+      	<div class="login">
+      		<p>Account / Sign In</p>
+		    <form action="/action_page.php">
+		      <input type="text" placeholder="Username" name="username">
+      		  <input type="text" placeholder="Password" name="psw">
+		      <button type="submit"><img src="profile.png" alt="Profile" style="height:20px"></button>
+		    </form>
+  		</div>
+  		<main>
+  			<section id="Jazz">
+  				<h2>Smooth Jazz</h2>
+  				<p>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented crossover jazz became dominant in the 1980s and early 1990s.</p>
+  			</section>
+	  		<!--Trending Songs Section-->
+	  		<h2 class="BlackBackground">Trending Songs</h2>
+	  		<div id="Songs">
+	  			<section>
+	  				<img src="successful-performance-cover.jpg" alt="Successful-Performance-Cover" style="height:240px">
+	  				<img src="play.png" alt="Play" style="height:250px" class="Play">
+					<audio controls>
+		  				<source src="successful-performance.mp3" type="audio/mpeg">
+					</audio>
+					<h3>Successful Performance</h3>
+					<p>By: Ricky Bombino</p>
+					<p>Length: 2:35 minutes</p>
+					<p>BPM (Beats per minute): 105</p>
+	  			</section>
+	  			<section>
+	  				<img src="papaya-cover.jpg" alt="Papaya-Cover" style="height:240px">
+	  				<img src="play.png" alt="Play" style="height:250px" class="Play">
+	  				<audio controls>
+		  				<source src="papaya.mp3" type="audio/mpeg">
+					</audio>
+					<h3>Papaya</h3>
+					<p>By: Dredstudio</p>
+					<p>Length: 2:35 minutes</p>
+					<p>BPM (Beats per minute): 104</p>
+	  			</section>
+	  			<section>
+	  				<img src="smoothies-cover.jpg" alt="Smoothies-Cover" style="height:240px">
+	  				<img src="play.png" alt="Play" style="height:250px" class="Play">
+	  				<audio controls>
+		  				<source src="smoothies.mp3" type="audio/mpeg">
+					</audio>
+					<h3>Smoothies</h3>
+					<p>By: Black Rhomb</p>
+					<p>Length: 2:24 minutes</p>
+					<p>BPM (Beats per minute): 125</p>
+	  			</section>
+	  			<section>
+	  				<img src="aloma-cover.jpg" alt="Aloma-Cover" style="height:240px">
+	  				<img src="play.png" alt="Play" style="height:250px" class="Play">
+					<audio controls>
+		  				<source src="aloma.mp3" type="audio/mpeg">
+					</audio>
+					<h3>Aloma</h3>
+					<p>By: Cali</p>
+					<p>Length: 2:47 minutes</p>
+					<p>BPM (Beats per minute): 120</p>
+	  			</section>
+	  			<section>
+	  				<img src="my-road-cover.jpg" alt="My-Road-Cover" style="height:240px">
+	  				<img src="play.png" alt="Play" style="height:250px" class="Play">
+					<audio controls>
+		  				<source src="my-road.mp3" type="audio/mpeg">
+					</audio>
+					<h3>My Road</h3>
+					<p>By: Nesterouk</p>
+					<p>Length: 2:24 minutes</p>
+					<p>BPM (Beats per minute): 84</p>
+	  			</section>
+	  		</div>
+	  		<p class="smalltext">See all trending songs</p>
+	  		<!--Continue Listening Section-->
+	  		<h2 class="BlackBackground">Continue Listening</h2>
+	  		<div id="Moresongs">
+	  			<section>
+	  				<img src="smooth-study-cover.jpg" alt="Smooth-Study-Cover" style="height:240px">
+	  				<img src="play.png" alt="Play" style="height:250px" class="PlayHidden">
+	  				<h3>Smooth Study</h3>
+					<p>Background music to keep you going while you study.</p> 
+	  			</section>
+	  			<section>
+	  				<img src="jazz-pioneers-cover.jpg" alt="Jazz-Pioneers-Cover" style="height:240px">
+	  				<img src="play.png" alt="Play" style="height:250px" class="PlayHidden">
+	  				<h3>Jazz Pioneers</h3>
+					<p>The pioneers of smooth jazz.</p> 
+	  			</section>
+	  			<section>
+	  				<img src="pumpkin-spice-cover.jpg" alt="Pumpkin-Spice-Cover" style="height:240px">
+	  				<img src="play.png" alt="Play" style="height:250px" class="PlayHidden">
+	  				<h3>Pumpkin Spice</h3>
+					<p>Creamy and spicy, just like your favorite autumnal latte.</p> 
+	  			</section>
+	  			<section>
+	  				<img src="quite-storm-cover.jpg" alt="Quite-Storm-Cover" style="height:240px">
+	  				<img src="play.png" alt="Play" style="height:250px" class="PlayHidden">
+	  				<h3>Quiet Storm</h3>
+					<p>Slow tempos and relaxed rhythms.</p> 
+	  			</section>
+	  			<section>
+	  				<img src="best-of-2020-cover.jpg" alt="Best-Of-2020-Cover" style="height:240px">
+	  				<img src="play.png" alt="Play" style="height:250px" class="PlayHidden">
+	  				<h3>Best of 2020</h3>
+					<p>The music that got you through the lock down.</p>
+				</section>
+			</div>
+			<p class="smalltext">See all continue listening</p>
+		  	<!--Curated Playlists Section-->
+		  	<h2 class="BlackBackground">Curated Playlists</h2>
+			<div id="playlist">
+		  		<section>
+	  				<img src="dinner-party-cover.jpg" alt="Dinner-Party-Cover" style="height:240px">
+	  				<img src="play.png" alt="Play" style="height:250px" class="PlayHidden">
+	  				<h3>Dinner Party</h3>
+					<p>Background music to give your party life, but allow your guests to chat.</p> 
+	  			</section>
+	  			<section>
+	  				<img src="smooth-jazz-saxophone-cover.jpg" alt="Smooth-Jazz-Saxophone-Cover" style="height:240px">
+	  				<img src="play.png" alt="Play" style="height:250px" class="PlayHidden">
+	  				<h3>Smooth Jazz Saxophone</h3>
+					<p>The greatest collection of your sax favorites.</p> 
+	  			</section>
+	  			<section>
+	  				<img src="mellow-cover.jpg" alt="Mellow-Cover" style="height:240px">
+	  				<img src="play.png" alt="Play" style="height:250px" class="PlayHidden">
+	  				<h3>Mellow</h3>
+					<p>Relax after a stressful day with this collection of extra smooth jazz.</p> 
+	  			</section>
+	  			<section>
+	  				<img src="smooth-jazz-and-chill-cover.jpg" alt="Smooth-Jazz-and-Chill-Cover" style="height:240px">
+	  				<img src="play.png" alt="Play" style="height:250px" class="PlayHidden">
+	  				<h3>Smooth Jazz and Chill</h3>
+					<p>Set the mood with these silky sounds.</p> 
+	  			</section>
+	  			<section>
+	  				<img src="boozey-brunch-cover.jpg" alt="Boozey-Brunch-Cover" style="height:240px">
+	  				<img src="play.png" alt="Play" style="height:250px" class="PlayHidden">
+	  				<h3>Boozey Brunch</h3>
+					<p>Light up the afternoon with these energetic hits.</p> 
+	  			</section>
+	  		</div>
+	  		<p class="smalltext">See all curated playlists</p>
+  			<footer>&copy;Copyright 2021 Smooth Jazz</footer>
+  		</main>	
+	</body>
+</html>
